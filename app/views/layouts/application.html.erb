@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SiddurApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= stylesheet_link_tag    'style.css', media: 'all' %>
+    <%= stylesheet_link_tag    'wow_book.css', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'wow_book.min.js' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
